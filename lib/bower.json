@@ -1,0 +1,20 @@
+{
+  "name": "orchard",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Dustin Reed"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/drdreed/orchard",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
