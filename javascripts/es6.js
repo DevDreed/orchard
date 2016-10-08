@@ -1,3 +1,5 @@
+"use strict";
+
 console.log('es6');
 
 //const
@@ -15,7 +17,7 @@ console.log('b2',b);
 function varTest() {
   var x = 1;
   if (true) {
-    var x = 2;
+    x = 2;
     console.log('x',x);
   }
   console.log('x',x);
@@ -37,7 +39,7 @@ letTest();
 
 var sum = function () {
   let a=1, b=2; return a+b;
-}
+};
 
 let sum1 = () => {
   let a=1, b=2; return a+b;
@@ -48,7 +50,7 @@ console.log(sum1());
 
 var reflect = function (value) {
   return value;
-}
+};
 
 let reflect2 = (value) => value;
 
@@ -57,7 +59,7 @@ console.log(reflect2("es6 so today"));
 
 let realSum = function (num1, num2) {
   return num1 + num2;
-}
+};
 
 console.log("realSum", realSum(2,3));
 
@@ -73,13 +75,13 @@ let n = `hello my name is ${m}`;
 console.log('n',n);
 //object literal property shorthand
 
-let wow = "Hi there", es6 = "ES6", numNum = ()=>{console.log('howdy')};
+let wow = "Hi there", es6 = "ES6", numNum = ()=>{console.log('howdy');};
 
 let myOldObject = {
   wow:wow,
   es6:es6,
   numNum:numNum
-}
+};
 
 console.log(myOldObject);
 
@@ -87,7 +89,7 @@ let myNewObject = {
   wow,
   es6,
   numNum
-}
+};
 
 console.log(myNewObject);
 
@@ -96,13 +98,13 @@ console.log(myNewObject);
 var e5Obj = {
   foo: function(){console.log('foo');},
   bar: function () {console.log('bar');}
-}
+};
 
 console.log(e5Obj);
 
 var es6Obj = {
-  foo(){console.log('foo')},
-  bar(){console.log('bar')}
-}
+  foo(){console.log('foo');},
+  bar(){console.log('bar');}
+};
 
 console.log(es6Obj);
